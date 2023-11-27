@@ -1,0 +1,6 @@
+[submodule "temp-chat-client"]
+	path = temp-chat-client
+	url = https://github.com/FunHaver/temp-chat-client
+[submodule "temp-chat-server"]
+	path = temp-chat-server
+	url = https://github.com/FunHaver/temp-chat-server
