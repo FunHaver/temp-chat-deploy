@@ -2,6 +2,10 @@
 
 This repository is here to contain the deployment of Temp Chat. The constituent parts are submodules and the main repository here contains installation scripts, system files, and configurations.
 
+The source code for the client can be found [here](https://github.com/FunHaver/temp-chat-client)
+
+The source code for the server can be found [here](https://github.com/FunHaver/temp-chat-server)
+
 ## Live Demo
 To view a live demo, [click here](temp-chat.conortsullivan.net).
 
