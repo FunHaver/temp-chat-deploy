@@ -2,6 +2,9 @@
 set -e
 EXECUTION_DIR=$(pwd)
 
+git submodule init
+git submodule update
+
 pushd temp-chat-server
 npm install
 popd
