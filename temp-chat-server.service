@@ -4,6 +4,7 @@ Documentation=https://github.com/FunHaver/temp-chat-deploy
 After=network.target
 
 [Service]
+Environment=NODE_CONFIG_DIR=/home/tempchat/temp-chat-deploy/temp-chat-server/config/
 Type=simple
 User=tempchat
 ExecStart=/usr/bin/node /home/tempchat/temp-chat-deploy/temp-chat-server/src/app.js
