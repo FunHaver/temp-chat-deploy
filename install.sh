@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ex
+set -e
 EXECUTION_DIR=$(pwd)
 
 pushd temp-chat-server
@@ -29,3 +29,13 @@ fi
 cp temp-chat-client/dist/temp-chat-client/* /var/www/html/.
 
 systemctl restart nginx
+
+if [ -L /lib/systemd/system/temp-chat-server.service ]; then
+	rm /lib/systemd/system/temp-chat-server.service
+fi
+
+ln -s $EXECUTION_DIR/temp-chat-server.service /lib/systemd/system/temp-chat-server.service
+
+systemctl daemon-reload
+systemd enable temp-chat-server
+systemd restart temp-chat-server

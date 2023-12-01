@@ -1,0 +1,13 @@
+[Unit]
+Description=Temp Chat Server - A temporary chat service
+Documentation=https://github.com/FunHaver/temp-chat-deploy
+After=network.target
+
+[Service]
+Type=simple
+User=tempchat
+ExecStart=/usr/bin/node /home/tempchat/temp-chat-deploy/temp-chat-server/app.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
