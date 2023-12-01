@@ -7,7 +7,7 @@ The source code for the client can be found [here](https://github.com/FunHaver/t
 The source code for the server can be found [here](https://github.com/FunHaver/temp-chat-server)
 
 ## Live Demo
-To view a live demo, [click here](https://temp-chat.conortsullivan.net).
+To view a live demo, [click here](https://temp-chat.conorsullivan.net).
 
 ## Installation
 
