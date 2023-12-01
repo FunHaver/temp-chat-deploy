@@ -40,3 +40,21 @@ temp-chat-nginx-config.conf
 7. start the application \
 `sudo systemctl start temp-chat-server.service`
 
+## Technical Details
+
+Temp Chat's tech stack is as follows:
+
+### Client
+* Angular Front End Framework
+* REST API
+* WebSocket
+
+### Server
+* NGINX to communicate to the open web and reverse proxy to the application server
+* Application server written in NodeJS + Express 
+* SQLite3 manages persistence 
+
+### Diagram
+
+![Temp Chat System Diagram](https://conorsullivan.net/assets/temp-chat-diagram.png)
+
