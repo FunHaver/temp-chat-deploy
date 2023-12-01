@@ -6,7 +6,7 @@ After=network.target
 [Service]
 Type=simple
 User=tempchat
-ExecStart=/usr/bin/node /home/tempchat/temp-chat-deploy/temp-chat-server/app.js
+ExecStart=/usr/bin/node /home/tempchat/temp-chat-deploy/temp-chat-server/src/app.js
 Restart=on-failure
 
 [Install]
