@@ -33,11 +33,13 @@ To view a live demo, [click here](https://temp-chat.conorsullivan.net).
 `git clone https://github.com/FunHaver/temp-chat-deploy`
 6. Change into the temp-chat-deploy directory\
 `cd temp-chat-deploy`
-6. Make modifications to the nginx config file if you so choose (e.g. to enable SSL). The file is located in the top level of the temp-chat-deploy directory:\
+6. Make the following modifications to the nginx config file. It is located in the top level of the temp-chat-deploy directory:\
 temp-chat-nginx-config.conf
-6. run the install.sh script with sudo\
+   *  Configure SSL
+   *  Set server_name 
+7. run the install.sh script with sudo\
 `sudo ./install.sh`
-7. start the application \
+8. start the application \
 `sudo systemctl start temp-chat-server.service`
 
 ## Technical Details
