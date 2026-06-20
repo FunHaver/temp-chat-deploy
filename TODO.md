@@ -18,6 +18,7 @@ The list of tasks to make the current iteration of Temp Chat better!
 - [ ] Select and implement an attractive pallette and design
 
 ## Server (temp-chat-server submodule)
+- [ ] Fix bug where if message is sent in already reaped chatroom, the node process crashes. Handle better.
 - [ ] Update npm dependencies
 - [ ] Refactor to typescript
 
