@@ -5,7 +5,7 @@ The list of tasks to make the current iteration of Temp Chat better!
 - [x] Update npm dependencies
 - [x] Add meta description and Open Graph tags to index.html
 - [x] Right align user's messages, left align other chatters' messages
-- [ ] Fix bug where when first user leaves room, room gets reaped even when other users are still there
+- [ ] Add reaped room redirect. If user disconnects but browser window is still in room view, next time data is sent to server it should 404 and client should redirect to the main page. 
 - [ ] Add indications that the chat room vanishes (some flavor text, an info button with a modal explaining things)
   - [ ] Message at top of user list that states # of users left
   - [ ] Info icon button that displays modal stating the following:
@@ -18,7 +18,9 @@ The list of tasks to make the current iteration of Temp Chat better!
 - [ ] Select and implement an attractive pallette and design
 
 ## Server (temp-chat-server submodule)
+- [ ] Fix bug where when first user leaves room, room gets reaped even when other users are still there
 - [ ] Fix bug where if message is sent in already reaped chatroom, the node process crashes. Handle better.
+  - [ ] Log exception and respond with 404.
 - [ ] Update npm dependencies
 - [ ] Refactor to typescript
 
