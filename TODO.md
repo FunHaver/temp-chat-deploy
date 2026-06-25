@@ -13,7 +13,7 @@ The list of tasks to make the current iteration of Temp Chat better!
       - [x] Users can leave by closing the window/tab or by selecting the Leave Room button on the top left
       - [x] Users cannot rejoin a chat room with a name that has already been used
   - [x] Visual indication that a user has left (faded color or strikethrough)
-- [ ] Add chat message timestamps
+- [x] Add chat message timestamps
 - [ ] Select and implement an attractive pallette and design
 
 ## Server (temp-chat-server submodule)
