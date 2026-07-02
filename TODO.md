@@ -14,7 +14,7 @@ The list of tasks to make the current iteration of Temp Chat better!
       - [x] Users cannot rejoin a chat room with a name that has already been used
   - [x] Visual indication that a user has left (faded color or strikethrough)
 - [x] Add chat message timestamps
-- [ ] Select and implement an attractive pallette and design
+- [x] Select and implement an attractive pallette and design
 
 ## Server (temp-chat-server submodule)
 - [x] Fix bug where when first user leaves room, room gets reaped even when other users are still there
