@@ -19,8 +19,8 @@ The list of tasks to make the current iteration of Temp Chat better!
 ## Server (temp-chat-server submodule)
 - [x] Fix bug where when first user leaves room, room gets reaped even when other users are still there
 - [x] Fix bug where if message is sent in already reaped chatroom, the node process crashes. Handle better.
-- [ ] Update npm dependencies
-- [ ] Refactor to typescript
+- [x] Update npm dependencies
+- [x] Refactor to typescript
 
 ## Deployment (temp-chat-deploy parent repo)
 - [ ] Audit installation script
