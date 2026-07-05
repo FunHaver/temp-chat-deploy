@@ -38,7 +38,9 @@ temp-chat-nginx-config.conf
    *  Set server_name 
 7. run the install.sh script with sudo\
 `sudo ./install.sh`
-8. start the application \
+8. Restart nginx\
+`sudo systemctl restart nginx`
+9. Start the application\
 `sudo systemctl start temp-chat-server.service`
 
 ## Technical Details
