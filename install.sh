@@ -7,7 +7,7 @@ git submodule update
 
 pushd temp-chat-server
 npm install
-npx tsc
+npm run build
 popd
 
 pushd temp-chat-client
