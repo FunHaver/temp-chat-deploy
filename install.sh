@@ -10,10 +10,6 @@ npm install
 npm run build
 popd
 
-pushd temp-chat-client
-ng build
-popd
-
 if [ -L /etc/nginx/sites-available/temp-chat-nginx-config.conf ]; then
 	rm /etc/nginx/sites-available/temp-chat-nginx-config.conf
 fi
