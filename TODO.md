@@ -23,5 +23,5 @@ The list of tasks to make the current iteration of Temp Chat better!
 - [x] Refactor to typescript
 
 ## Deployment (temp-chat-deploy parent repo)
-- [ ] Audit installation script
-- [ ] Audit nginx config
+- [x] Audit installation script
+- [x] Audit nginx config
