@@ -45,5 +45,5 @@ fi
 ln -s $EXECUTION_DIR/temp-chat-server.service /lib/systemd/system/temp-chat-server.service
 
 systemctl daemon-reload
-systemd enable temp-chat-server
-systemd restart temp-chat-server
+systemctl enable temp-chat-server
+systemctl restart temp-chat-server
