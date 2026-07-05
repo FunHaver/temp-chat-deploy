@@ -12,8 +12,7 @@ To view a live demo, [click here](https://temp-chat.conorsullivan.net).
 ## Installation
 
 ### System Requirements
-* OS: Debian 12
-* nodeJS 20
+* nodeJS 22
 * npm 10
 * systemd
 * nginx 1.22.1 or later

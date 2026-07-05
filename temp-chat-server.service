@@ -7,7 +7,7 @@ After=network.target
 Environment=NODE_CONFIG_DIR=/home/tempchat/temp-chat-deploy/temp-chat-server/config/
 Type=simple
 User=tempchat
-ExecStart=/usr/bin/node /home/tempchat/temp-chat-deploy/temp-chat-server/src/app.js
+ExecStart=/usr/bin/node /home/tempchat/temp-chat-deploy/temp-chat-server/built/app.js
 Restart=on-failure
 
 [Install]

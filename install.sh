@@ -7,6 +7,11 @@ git submodule update
 
 pushd temp-chat-server
 npm install
+npx tsc
+popd
+
+pushd temp-chat-client
+ng build
 popd
 
 if [ -L /etc/nginx/sites-available/temp-chat-nginx-config.conf ]; then
